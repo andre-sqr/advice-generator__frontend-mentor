@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quote-card {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.quote-card__title {
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.quote-card__quote {
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 1em;
+    font-size: 28px;
+}
+
+.quote-card__divider {
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.dice-btn {
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 2.2em;
+    width: 2.2em;
+    position: relative;
+    bottom: 20px;
+}
+
+.dice-btn__img {
+    width: 50%;
+    height: 50%;
+}
+
+.dice-btn:hover {
+    box-shadow: hsl(150, 100%, 66%) 0px 0px 20px 8px;
+}
